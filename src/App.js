@@ -1,17 +1,13 @@
+import Home from "./pages/home/Home";
 import TopBar from "./topbar/TopBar";
+import Post from "./post/Post";
 
 function App() {
   return (
     <>
       <TopBar/>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
-      <p>test</p>
+      <Home/>
+      <Post/>
     </>
     
   );
