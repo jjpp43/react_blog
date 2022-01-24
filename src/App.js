@@ -1,7 +1,7 @@
 import Home from "./pages/home/Home";
 import TopBar from "./components/topbar/TopBar";
 import Post from "./components/post/Post";
-import Single from "./pages/home/single/Single";
+import Single from "./pages/single/Single";
 
 function App() {
   return (
