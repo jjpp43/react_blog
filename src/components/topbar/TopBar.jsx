@@ -4,7 +4,7 @@ import "./topbar.css"
 export default function TopBar() {
     const user = false; //for test purposes
     return (
-        <div classname="top">
+        <div className="top">
             <div className="topLeft">
                 <i className="topIcon fab fa-facebook-square"></i>
                 <i className="topIcon fab fa-twitter-square"></i>
