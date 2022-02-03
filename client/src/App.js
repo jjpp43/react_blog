@@ -7,6 +7,8 @@ import Write from "./pages/write/Write";
 import Settings from "./pages/settings/Settings";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
+import Forum from "./pages/forum/Forum";
+
 
 
 import {
@@ -24,6 +26,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/register" element={<Register />} />
         <Route exact path="/login" element={<Login />} />
+        <Route exact path="/forum" element={<Forum />} />
         <Route exact path="/write" element={<Write />} />
         <Route exact path="/settings" element={<Settings />} />
         <Route exact path="/post/:postId" element={<Single />} />

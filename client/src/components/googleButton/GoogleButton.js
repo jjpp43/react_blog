@@ -30,6 +30,7 @@ export default function GoogleButton({ onSocial }){
                 onSuccess={onSuccess}
                 onFailure={onFailure}
                 isSignedIn="true"
+                cookiePolicy="single_host_origin"
             />
         </div>
     )
